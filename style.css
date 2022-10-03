@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    /* opacity: 1; */
+    /* z-index: 1; */
+}
+.navbar{
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    /* border: 0.5px solid gray; */
+}
+
+.logo img{
+    height: 40px;
+    width: 100px;
+}
+
+.nav{
+    border: 0.1px solid rgba(128, 128, 128, 0.168);
+    padding-left: 10px;
+}
+.nav svg{
+    /* color: black; */
+    /* background-color: black; */
+}
+.text p{
+    font-size: 13px;
+    color: gray;
+}
+.nav5 a{
+    text-decoration: none;
+    color: black;
+}
+.all{
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.13) ;
+}
+
+
+.searches{
+    /* border: 2px solid blue; */
+    /* height: 50px; */
+    background: linear-gradient(135.46deg,#d11450,#df293a);
+    /* background-color: red; */
+}
+.searches .header h3{
+    color: white;
+}
+.search form .ser{
+    /* border: 2px solid blue; */
+    height: 59px;
+    width: 200px;
+    font-weight: bolder;
+}
+.search form .ser1{
+    width: 400px;
+    padding-left: 10px;
+}
+.btn{
+    background-color: rgb(43, 184, 43);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.images img{
+    width: 90%;
+    /* margin: 0 auto; */
+}
+
+.notify{
+    border: 2px solid rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.deals{
+
+}
+.deal p{
+    color: gray;
+}
+
+.notifyme{
+    /* width: 20px; */
+}
+.notifyme input{
+    width: 300px;
+    height: 50px;
+    margin: 0 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.btn2{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color:white;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
